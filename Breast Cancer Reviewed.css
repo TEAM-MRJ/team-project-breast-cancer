@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Bree+Serif&family=Carter+One&family=Chicle&family=Concert+One&family=Lilita+One&family=Oxygen:wght@700&family=Passion+One&display=swap")
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.8%;
+    background-color: mintcream;
+    z-index: 1000000;
+}
+
+.nav h2{
+    color: #000000;
+    font-size: 28px;
+    font-family: "Bree Serif";
+    padding-left: 4.5rem;
+}
+
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    padding-right: 10px;
+    font-family: "Bree Serif";
+}
+
+#item li a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+}
+
+
+#item li a:hover, .material-symbols-outlined a:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+
+#item li a::before, .material-symbols-outlined a::before{  
+      background: none repeat scroll 0 0 transparent;
+    bottom: -10px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: #ff1493;
+  transition: All .5s;
+  width: 0%;
+}
+
+#item li a:hover::before, .material-symbols-outlined a:hover::before{
+    width: 100%;
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+
+.material-symbols-outlined{
+    padding-right: 10px;
+    padding-left: 6px;
+    color: #000000;
+}
+
+.material-symbols-outlined a{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+}
+
+.back{
+    background-image: url(bg%20ribbon.jpeg) ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+    border-bottom: 1px black solid;
+}
+
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+h{
+    line-height: 1.0;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mid h2{
+    color: whitesmoke;
+    font-size: 4.3rem;
+    font-family: "Bree Serif";
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mid h3{
+    color: plum;
+    font-size: 2rem;
+    font-family: "Bree Serif";
+    margin-top: 1px;
+}
+
+.mid .btn{
+    margin-top: 70px;
+}
+
+.mid .btn a.border{
+    font-size: 1.6rem;
+    font-family: "Lilita One";
+    text-decoration: none;
+    color: powderblue;
+    border: 1px solid;
+    border-color: powderblue;
+    font-weight: 400;
+    padding: 0.9rem 1.6rem;
+    border-radius: 10px;
+    border-width: thick;
+    margin-top: 5px;
+}
+
+.mid .btn a.border:hover{
+    background: #FFE7E9;
+    border: 1px solid hotpink;
+    color: #000000;
+    
+}
+
+.about {
+    border-bottom: 1px black solid;
+  background-color: mintcream;
+    display: flex;
+    flex-direction: row;
+}
+
+.about .text{
+   padding-left: 2%;
+}
+
+.about h3{
+    font-family: "Lilita One";
+    font-size: 45px;
+    font-weight: 100;
+    padding-top: 5rem;
+}
+
+.about p{
+    font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: -100px;
+}
+
+.about .image{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+.riskfactors{
+    padding-right: 40%;
+    padding-left: 2%;
+    border-bottom: 1px black solid;
+    padding-top: 5rem;
+     background-color: mintcream;
+}
+
+.riskfactors h3{
+    font-family: "Lilita One";
+    font-size: 45px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.riskfactors p{
+    font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: -100px;    
+}
+
+.symptoms{
+     padding-right: 40%;
+    padding-left: 2%;
+    border-bottom: 1px black solid;
+    padding-top: 5rem;
+     background-color: mintcream;
+}
+
+.symptoms h3{
+    font-family: "Lilita One";
+    font-size: 45px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.symptoms p{
+      font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: -100px;  
+}
+
+.preventions{
+     padding-right: 40%;
+    padding-left: 2%;
+    border-bottom: 1px black solid;
+    padding-top: 5rem;
+     background-color: mintcream;
+}
+
+.preventions h3{
+    font-family: "Lilita One";
+    font-size: 45px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+.preventions p{
+      font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: -100px;  
+}
+
+.statistics {
+  background-color: mintcream;
+    display: flex;
+    flex-direction: row;
+}
+
+.statistics .text{
+   padding-left: 2%;
+}
+
+.statistics h3{
+    font-family: "Lilita One";
+    font-size: 45px;
+    font-weight: 100;
+    padding-top: 5rem;
+}
+
+.statistics p{
+    font-size: 22px;
+    font-family: "Bree Serif";
+    padding-top: -100px;
+}
+
+.statistics .image{
+    padding-top: 25%;
+    padding-left: 5%;
+}
+
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 2px lightpink solid;
+}
+
+.footer p{
+    font-family: "Bree Serif";
+    font-size: 23px;
+}
+
+.credits{
+    padding-left: 6%;
+}
+
+.idk{
+    padding-left: 53%;
+}
+
+.footer .material-symbols-outlined{
+    font-size: 30px;
+}

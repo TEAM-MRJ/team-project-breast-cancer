@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Bree+Serif&family=Carter+One&family=Chicle&family=Concert+One&family=Lilita+One&family=Oxygen:wght@700&family=Passion+One&display=swap")
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98.8%;
+    background-color: hotpink;
+    z-index: 1000000;
+}
+
+.nav h2{
+    color: #fff;
+    font-size: 1.9rem;
+    font-family: "Bree Serif";
+    padding-left: 4.5rem;
+}
+
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    padding-right: 50px;
+    font-family: "Bree Serif";
+}
+
+#item li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#item li a:hover, .material-symbols-outlined a:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    padding-right: 2rem;
+    color: white;
+}
+
+.material-symbols-outlined a{
+    text-decoration: none;
+    color: white;
+}
+
+.back{
+    background-image: url(pink%20ribbon.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+}
+
+h{
+    line-height: 1.0;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.mid h2{
+    color: deeppink;
+    font-size: 5rem;
+    font-family: "Bree Serif";
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mid h3{
+    color: blueviolet;
+    font-size: 2rem;
+    font-family: "Bree Serif";
+    margin-top: 1px;
+}
+
+.mid .btn{
+    margin-top: 70px;
+    
+}
+
+.mid .btn a.border{
+    font-size: 1.6rem;
+    font-family: "Lilita One";
+    text-decoration: none;
+    color: blueviolet;
+    border: 1px solid;
+    border-color: hotpink;
+    font-weight: 400;
+    padding: 0.9rem 1.6rem;
+    border-radius: 10px;
+    border-width: thick;
+    margin-top: 5px;
+}
+
+.mid .btn a.border:hover{
+    background: hotpink;
+    border: 1px solid hotpink;
+    
+}
+
+.about{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background-color: deeppink;
+}
+
+.about h3{
+    font-family: "Lilita One";
+    font-size: 4rem;
+}
+
+.about p{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 4rem;
+}
+
+.about ul{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    list-style-type: circle;
+}
+
+
+.causes{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background-color: hotpink;
+    justify-content: center;
+}
+
+.causes h3{
+    font-family: "Lilita One";
+    font-size: 4rem;
+}
+
+.causes p{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.symptoms{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background-color: mediumspringgreen;
+    justify-content: center;
+}
+
+.symptoms h3{
+    font-family: "Lilita One";
+    font-size: 4rem;
+}
+
+.symptoms p{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.prevention{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background-color: darkseagreen;
+    justify-content: center;
+}
+
+.prevention h3{
+    font-family: "Lilita One";
+    font-size: 4rem;
+}
+
+.prevention p{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+.motivation{
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    background-image:url(bg.jpg);
+    justify-content: center;
+}
+
+.motivation h3{
+    font-family: "Lilita One";
+    font-size: 4rem;
+}
+
+.motivation ul{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    list-style-type: circle;
+}
+
+.motivation p{
+    font-family: "Bree Serif";
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
